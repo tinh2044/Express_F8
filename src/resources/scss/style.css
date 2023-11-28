@@ -1,0 +1,11 @@
+.app {
+  background-color: #333;
+}
+
+.app .test {
+  color: #fff;
+}
+
+.app footer {
+  color: aqua;
+}

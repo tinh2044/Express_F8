@@ -10,6 +10,10 @@ const PORT = 3000
 
 
 
+// Config using static files
+app.use(express.static(path.join(__dirname, '/public')))
+
+
 
 // HTTP Logger
 app.use(morgan('combined'))
